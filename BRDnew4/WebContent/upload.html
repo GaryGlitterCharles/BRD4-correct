@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="UploadServlet" method="post" enctype="multipart/form-data">
+        <br><br/>
+        <input type="text" name="description" />
+        <input type="file" name="file" />
+         <br><br/>
+        <h4>R -  Record Level Rejection </h4>
+        <h4>F -   File Level Rejection  </h4>
+        <br><br/>
+    <select name="dropdown">
+            <option value="r">R</option>
+            <option value="f">F</option>
+                 
+     </select>
+     <br><br/>
+     <input type="submit" />
+
+    </form> 
+</body>
+</html>
